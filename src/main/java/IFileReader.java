@@ -5,4 +5,6 @@ public interface IFileReader {
     ByteArrayOutputStream read() throws IOException;
 
     boolean open(String fileName) throws IOException;
+
+    void setReader(IFileReader reader);
 }
